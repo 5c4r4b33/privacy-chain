@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>privacychain@5c4r4b33</em:id>
+    <em:name>Privacy Chain</em:name>
+    <em:version>0.1a</em:version>
+    <em:creator>Cedric Lauradoux and Iris Lohja</em:creator>
+    <em:homepageURL>https://github.com/5c4r4b33/privacy-chain</em:homepageURL>
+    <em:localized>
+      <Description>
+        <em:locale>en-US</em:locale>
+        <em:name>Privacy Chain</em:name>
+        w<em:description>Thunderbird addon to create signatures to bring awarness to users of email privacy issues.</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>fr</em:locale>
+        <em:name>Privacy Report</em:name>
+        <em:description>Extention Thunderbird pour creer des signatures aux mails pour alerter les utilisateurs sur les problemes de vie privee.</em:description>
+      </Description>
+    </em:localized>
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>54.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+  </Description>      
+</RDF>

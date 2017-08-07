@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<overlay id="Privacy chain" 
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<stringbundleset id="stringbundleset">
+	<stringbundle id="strings" src="chrome://privacychain/locale/privacy.properties"/>
+</stringbundleset>
+<script type="application/x-javascript" src="chrome://privacychain/content/chain.js"/>
+</overlay>

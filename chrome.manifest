@@ -1,0 +1,10 @@
+content     privacychain    chrome/content/
+
+overlay chrome://messenger/content/messenger.xul        chrome://privacychain/content/privacychain.xul
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://privacychain/content/privacychain.xul
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://privacychain/content/privacychain.xul
+
+locale          privacychain en-US        chrome/locale/en-US/
+locale          privacychain fr-FR        chrome/locale/fr-FR/
+locale  	privacychain it-IT	chrome/locale/it-IT/
+locale          privacychain al-AL	chrome/locale/al-AL/
